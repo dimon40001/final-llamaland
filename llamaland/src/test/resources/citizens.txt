@@ -1,0 +1,47 @@
+// TEST CITIZENS FOR CHECK ON 2021-07-24
+
+// NO - birthday doesn't match
+Von Tappo,Alfredo,01-01-1921,alexacie@test.com
+
+// NO - wrong email
+Doe,John,29-07-1921,john@doe
+
+// NO - duplicate email
+Brown,Bobby,10-11-1950,bobby.brown@ilovellamaland.com
+Brown,Dobby,11-03-1969,bobby.brown@ilovellamaland.com
+
+// NO - OPTED OUT
+Mustermann,Betsy,29-07-1921,betsy@heyitsme.com
+
+// YES - must be notified for 5-days check on 2021-07-24
+O'Rourke,Betsy,30-07-1921,betsy_o_rourke@heyitsme.com
+
+// YES - must be notified for 10-days check on 2021-07-24
+// AND - should NOT be notified in 5-days check (i.e. check date 2021-07-30)
+Green01,Kate,06-08-1921,user01@example.com
+Green02,Kate,06-08-1921,user02@example.com
+Green03,Kate,06-08-1921,user03@example.com
+Green04,Kate,06-08-1921,user04@example.com
+Green05,Kate,06-08-1921,user05@example.com
+Green06,Kate,06-08-1921,user06@example.com
+Green07,Kate,06-08-1921,user07@example.com
+Green08,Kate,06-08-1921,user08@example.com
+Green09,Kate,06-08-1921,user09@example.com
+Green10,Kate,06-08-1921,user10@example.com
+Green11,Kate,06-08-1921,user11@example.com
+Green12,Kate,06-08-1921,user12@example.com
+Green13,Kate,06-08-1921,user13@example.com
+Green14,Kate,06-08-1921,user14@example.com
+Green15,Kate,06-08-1921,user15@example.com
+Green16,Kate,06-08-1921,user16@example.com
+Green17,Kate,06-08-1921,user17@example.com
+Green18,Kate,06-08-1921,user18@example.com
+Green19,Kate,06-08-1921,user19@example.com
+Green20,Kate,06-08-1921,user20@example.com
+Green21,Kate,06-08-1921,user21@example.com
+
+// NO - not included in check on 2021-03-03
+Marz,Anna01,17-03-1921,anna01@test.com
+Marz,Anna02,17-03-1921,anna02@test.com
+Marz,Anna03,17-03-1921,anna03@test.com
+Marz,Anna04,17-03-1921,anna04@test.com
